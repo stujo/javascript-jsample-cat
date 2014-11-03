@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+.container {
+    padding: 10px;
+}
+.templates {
+    display: none
+}
+.jsample-button {
+    height: 3em;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 5px;
+}
+.red {
+    background-color: #ffcccc;
+    border: 2px solid red;
+}
+#doit_target {
+    width: 80%;
+    margin: 5px auto;
+}
+#controls {
+    min-height: 100px;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+}
+img {
+max-width: 100%;
+height: auto;
+padding: 0;
+margin: 0;
+display: block;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JSample</title>
+    <link rel="stylesheet" type="text/css" href="css/jsample.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Sample</h1>
+        <div id="controls">
+            <button class="jsample-button" id="doit">Do It</button>
+            <button class="jsample-button" id="undoit">Undo It</button>
+            <button class="jsample-button" id="toggleit">Toggle It</button>
+        </div>
+        <div id="doit_target"></div>
+    </div>
+
+    <div class="templates">
+        <div id="jsample_image_template"><img alt="cat" src="https://actnowtraining.files.wordpress.com/2012/02/cat.jpg?w=200"/></div>
+    </div>
+    <script type="text/javascript" src="js/jsample.js"></script>
+    <script type="text/javascript">
+    window.addEventListener("load", function() {
+        jsampleOnLoadCallback();
+    });
+    //window.addEventListener("load", jsampleOnLoadCallback);
+    </script>
+</body>
+
+</html>
